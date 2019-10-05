@@ -1,18 +1,67 @@
 <!DOCTYPE html>
     <html>
         <head>
-            <title>TensorFlow.js Tutorial</title>
+            <title>BARPASHackathon</title>
 
-            <!-- Import TensorFlow.js -->
-            <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.0.0/dist/tf.min.js"></script>
-            <!-- Import tfjs-vis -->
-            <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-vis@1.0.2/dist/tfjs-vis.umd.min.js"></script>
+            <!-- Import Font Awesome -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">
 
-            <!-- Import the main script file -->
-            <script src="script.js"></script>
+            <!-- Import Bootstrap.CSS -->
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        
+            <!-- Import Index.CSS -->
+            <link rel="stylesheet" href="index.css">    
 
         </head>
 
         <body>
+        
+                <div class="wrapper">
+                        <!-- Sidebar  -->
+                        <nav id="sidebar">
+                            <div class="sidebar-header">
+                                <h3>BARPAS Hackathon</h3>
+                            </div>
+                
+                            <ul class="list-unstyled components">
+                                <p>Menu</p>
+                                <li class="active">
+                                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false">Notifications</a>
+                                </li>
+                                <li>
+                                    <a href="#">Manage</a>
+                                </li>
+                                <li>
+                                    <a href="#">View</a>
+                                </li>
+                                <li>
+                                    <a href="#">History</a>
+                                </li>
+                                <li>
+                                    <a href="#">Settings</a>
+                                </li>
+                            </ul>
+                
+                            <ul class="list-unstyled CTAs">
+                                <li>
+                                    <a href="https://bootstrapious.com/tutorial/files/sidebar.zip" class="download">Sign Out</a>
+                                </li>
+                            </ul>
+                        </nav>
+                 
+                        <!-- Page Content  -->
+                        <div id="content">
+                
+                            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                                <div class="container-fluid">
+                
+                                    <button type="button" id="sidebarCollapse" class="btn btn-info">
+                                        <i class="fas fa-align-left"></i>
+                                        <span>Toggle Menu</span>
+                                    </button>
+                
+                                </div>
+                            </nav>
+
         </body>
 </html>
