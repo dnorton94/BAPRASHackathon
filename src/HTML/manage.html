@@ -10,12 +10,12 @@
             <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         
             <!-- Import Index.CSS -->
-            <link rel="stylesheet" href="/src/CSS/notifications.css">    
+            <link rel="stylesheet" href="/src/CSS/manage.css">    
 
         </head>
 
         <body>
-
+        
                 <div class="wrapper">
                         <!-- Sidebar  -->
                         <nav id="sidebar">
@@ -28,14 +28,14 @@
                                 <p>Menu</p>
                                 <li>
                                         <a href="/src/HTML/profile.html">Dashboard</a>
-                                   </li>
-                                <li class="active">
-                                    <a href="#">Notifications</a>
+                                </li>
+                                <li>
+                                    <a href="/src/HTML/notifications.html">Notifications</a>
                                 </li>
                                 <li>
                                     <a href="/src/HTML/profile.html">Profile</a>
                                 </li>
-                                <li>
+                                <li class="active">
                                     <a href="/src/HTML/manage.html">Manage</a>
                                 </li>
                                 <li>
@@ -69,43 +69,46 @@
                 
                                 </div>
                             </nav>
-        
-                <div class="container">
 
-                        <div class="card mt-4">
-                          <h6 class="card-header">Featured</h6>
-              <div class="card-body">
-                This is some text within a card body.
-              </div>
-              <div class="card-footer text-muted">
-                2 days ago
-              </div>
-            </div>
-                        
-                        <div class="card mt-4">
-                          <h6 class="card-header">Featured</h6>
-              <div class="card-body">
-                This is some text within a card body.
-              </div>
-              <div class="card-footer text-muted">
-                2 days ago
-              </div>
-            </div>
-                        
-                        <div class="card mt-4">
-                          <h6 class="card-header">Featured</h6>
-              <div class="card-body">
-                This is some text within a card body.
-              </div>
-              <div class="card-footer text-muted">
-                2 days ago
-              </div>
-            </div>
-                        
-             
-                        
-                        
-                       </div>
+                            <div class="container">
+                                    <div class="row">
+                                      <div class="card bg-light mb-3 ml-3 mt-5" style="max-width: 18rem;">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Ward 1</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  </div>
+                                </div>
+                                    </div>
+                                  </div>
+                                
+                                <div class="container">
+                                          
+                                <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
+                                
+                                <table id="myTable">
+                                  <tr class="header">
+                                    <th style="width:60%;">Name</th>
+                                    <th style="width:40%;">Country</th>
+                                  </tr>
+                                  <tr>
+                                    <td>Alfreds Futterkiste</td>
+                                    <td>Germany</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Berglunds snabbkop</td>
+                                    <td>Sweden</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Island Trading</td>
+                                    <td>UK</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Koniglich Essen</td>
+                                    <td>Germany</td>
+                                  </tr>
+                                </table>
+                                  
+                                </div>
             
             <!-- Import JQuery -->
             <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -113,7 +116,7 @@
             <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   
             <!-- Import index.js -->
-            <script type="text/javascript" src=""></script>
+            <script type="text/javascript" src="/src/Javascript/index.js"></script>
 
         </body>
 </html>

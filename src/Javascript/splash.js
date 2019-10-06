@@ -8,3 +8,7 @@ function showPage() {
   document.getElementById("loader").style.display = "none";
   document.getElementById("myDiv").style.display = "block";
 }
+
+$(".controls a").on("click", function(e){
+  $("body").toggleClass("overlay-off");
+});
